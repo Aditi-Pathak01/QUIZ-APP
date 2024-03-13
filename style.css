@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
 body {
   background-color: #3B413C;
@@ -10,17 +15,12 @@ body {
   color: #141313;
   max-width: 550px;
   width: 90%;
-  height: 64vh;
+  height: 68vh;
   margin: 100px auto 0;
   padding: 2rem;
   border-radius: 1rem;
-  background-image: linear-gradient(
-    43deg,
-    #667168 0%,
-    #7c3434 46%,
-    rgb(117, 112, 112) 100%
-  );
- filter: drop-shadow(2px 2px 3px black);
+  background-color: #b0a5a5;
+  filter: drop-shadow(2px 2px 3px black);
 }
 h1 {
   font-size: 25px;
@@ -45,7 +45,7 @@ h1 {
 .btn {
   border: none;
   outline: none;
-  width: 60%;
+  width: 55%;
   font-size: 1rem;
   font-weight: 900;
   padding: 10px;
