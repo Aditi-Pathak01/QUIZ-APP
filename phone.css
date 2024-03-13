@@ -3,3 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+#container {
+  height: 78vh;
+  margin: 80px auto 10px;
+}
+h1 {
+  font-size: 1.5rem;
+  padding-bottom: 1.4rem;
+}
+#quiz-sec {
+  padding:0;
+}
+#Q {
+  font-size: 1.2rem;
+}
+#answer-btns {
+  margin-top: 3rem;
+}
+.btn {
+  width: 70%;
+  font-size: 0.85rem;
+  margin: 8px auto;
+}
+#next-btn {
+  width: 80px;
+}
